@@ -1,0 +1,3 @@
+function Layer () {
+    this.objects = [];
+}

@@ -1,0 +1,128 @@
+{
+  "levels": [
+    {
+      "name": "Stage 1",
+      "controller": "StageController",
+      "speed": "slow",
+      "water": {
+        "src": "stage_1_water.png",
+        "width": 32,
+        "height": 32,
+        "source_width": 96,
+        "source_height": 32
+      },
+      "background": "stage_1_bg.png",
+      "screen_width": 240,
+      "screen_height": 320,
+      "board_width": 378,
+      "objects": [
+        {
+          "type": "Turret",
+          "options": {
+            "x": 203,
+            "y": 748
+          }
+        },
+        {
+          "type": "Turret",
+          "options": {
+            "x": 56,
+            "y": 844
+          }
+        },
+        {
+          "type": "Turret",
+          "options": {
+            "x": 203,
+            "y": 1005
+          }
+        },
+        {
+          "type": "Turret",
+          "options": {
+            "x": 43,
+            "y": 1016
+          }
+        },
+        {
+          "type": "Turret",
+          "options": {
+            "x": 75,
+            "y": 1069
+          }
+        },
+        {
+          "type": "Turret",
+          "options": {
+            "x": 187,
+            "y": 1069
+          }
+        },
+        {
+          "type": "Helicopter",
+          "options": {
+            "time": 3,
+            "x": 120
+          }
+        },
+        {
+          "type": "Helicopter",
+          "options": {
+            "time": 4,
+            "x": 200
+          }
+        },
+        {
+          "type": "Helicopter",
+          "options": {
+            "time": 7,
+            "x": 50
+          }
+        },
+        {
+          "type": "BigHelicopter",
+          "options": {
+            "time": 9,
+            "x": 100
+          }
+        },
+        {
+          "type": "Helicopter",
+          "options": {
+            "time": 13,
+            "x": 200
+          }
+        },
+        {
+          "type": "Helicopter",
+          "options": {
+            "time": 14,
+            "x": 50
+          }
+        },
+        {
+          "type": "Helicopter",
+          "options": {
+            "time": 16,
+            "x": 100
+          }
+        },
+        {
+          "type": "Helicopter",
+          "options": {
+            "time": 17,
+            "x": 20
+          }
+        },
+        {
+          "type": "BigHelicopter",
+          "options": {
+            "time": 20,
+            "x": 0
+          }
+        }
+      ]
+    }
+  ]
+
+}
